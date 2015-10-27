@@ -9,6 +9,11 @@ namespace CheckLowRate
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hourly Pay rate: ");
+            int hourlyRate = Convert.ToInt32(Console.ReadLine());
+
+            if (hourlyRate < 5.65 )
+                Console.Write("Error");
         }
     }
 }
